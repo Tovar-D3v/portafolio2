@@ -1,5 +1,4 @@
-
-/* ================ */
+/* Estilos Generales */
 *,
 :after,
 :before {
@@ -96,6 +95,19 @@ button {
 }
 
 
+ul{
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+button {
+    display: flex;
+    justify-content: center
+}
+
 .d16kq653 {
     --color-text: #e3e6e8;
     --color-background: #0d0f12;
@@ -182,6 +194,8 @@ button {
     isolation: isolate
 }
 
+/* Header y Nav */
+
 .cabezera {
     position: -webkit-sticky;
     position: sticky;
@@ -230,19 +244,7 @@ button {
     color: var(--color-primary)
 }
 
-ul{
-    gap: 2rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-ul,
-button {
-    display: flex;
-    justify-content: center
-}
-
+/* Cuerpo del portafolio y Slidebar */
 
 .presentacion {
     display: flex;
@@ -429,6 +431,8 @@ ol {
     outline-offset: 2px
 }
 
+
+/* Estilos del footer */
 footer {
     position: relative;
     display: flex;
